@@ -3,6 +3,8 @@
 ## Introduction
 A simple cards application to get the basics of [Elixir](https://elixir-lang.org/). 
 
+*Following an Elixir tutorial by Stephen Grider*
+
 ## Installation
 
 1. Clone this repository `git clone https://github.com/MillerAdulu/elixir-cards.git`
