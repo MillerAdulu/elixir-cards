@@ -25,6 +25,13 @@ defmodule Cards do
 
   @doc """
   Returns a boolean value of whether a card exists in a deck
+
+  ## Examples
+
+      iex> deck = Cards.create_deck
+      iex> Cards.contains?(deck, "Ace of Spades")
+      true
+
   """
   def contains?(deck, card) do
     Enum.member?(deck, card)
@@ -62,7 +69,7 @@ defmodule Cards do
 
   ## Examples
 
-      iex> { hand, remainder } = Cards.create_hand(3)
+      iex> { hand, _remainder } = Cards.create_hand(3)
       iex> hand
       ["Ace of Diamonds", "Two of Hearts", "Four of Spades"]
 
