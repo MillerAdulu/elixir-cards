@@ -61,9 +61,11 @@ defmodule Cards do
   Returns a list of dealt cards
 
   ## Examples
+
       iex> { hand, remainder } = Cards.create_hand(3)
       iex> hand
-      iex> ["Ace of Diamonds", "Two of Hearts", "Four of Spades"]
+      ["Ace of Diamonds", "Two of Hearts", "Four of Spades"]
+
   """
   def create_hand(hand_size) do
     Cards.create_deck
